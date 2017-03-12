@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Device Properties Example</title>
+    <script>
+        window.onload = function(){
+          if(navigator.geolocation){
+            navigator.geolocation.getCurrentPosition(onSuccess = function(positions){
+            document.getElementById("geolocation").innerHTML = positions.coords.latitude;
+            });
+          }else{
+            alert("Your browser doesn't support Geo Location");
+          }
+        }
+    </script>
+  </head>
+  <body>
+    <p id="geolocation">Finding geolocation...</p>
+  </body>
+</html>
