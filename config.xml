@@ -7,8 +7,7 @@
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
     </author>
-<feature name="http://api.phonegap.com/1.0/geolocation"/>
-<dependency id="cordova-plugin-dialogs" />
+<plugin name="Geolocation" value="org.apache.cordova.GeoBroker" source="npm"/>
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
