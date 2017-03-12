@@ -8,6 +8,8 @@
         PhoneGap Team
     </author>
     <plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
+    <dependency id="cordova-plugin-geolocation" />
+<dependency id="cordova-plugin-dialogs" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
