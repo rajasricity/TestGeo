@@ -7,7 +7,7 @@
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
     </author>
-    <plugin name="Geolocation" value="org.apache.cordova.GeoBroker" />
+    <plugin name="cordova-plugin-geolocation"    source="npm" spec="1.0.1" />
     <feature name="Geolocation">
     <param name="android-package" value="org.apache.cordova.GeoBroker" />
 </feature>
