@@ -7,10 +7,7 @@
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
     </author>
-<plugin name="cordova-plugin-whitelist" version="1" />
-    <plugin name="cordova-plugin-mauron85-background-geolocation" spec="^2.2.0">
-        <variable name="ALWAYS_USAGE_DESCRIPTION" value="Tracking permission is required for app to work" />
-    </plugin>
+<gap:plugin name="org.apache.cordova.device" version="0.2.3" />
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
