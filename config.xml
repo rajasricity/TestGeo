@@ -7,8 +7,9 @@
     <author email="support@phonegap.com" href="http://phonegap.com">
         PhoneGap Team
     </author>
-<gap:plugin name="org.apache.cordova.device"/>
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+   <repo>https://git-wip-us.apache.org/repos/asf/cordova-plugin-geolocation.git</repo>
+    <dependency id="cordova-plugin-compat" version="^1.0.0" />
+<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />
     <content src="index.html" />
